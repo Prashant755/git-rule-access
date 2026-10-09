@@ -1,23 +1,61 @@
+this is again pushing in dev branch5. Common .gitignore patterns
 
-# Ignore log files
+Pattern
+
+	
+
+Meaning
+
+
+
+
 *.log
 
-# Ignore temporary files
-*.tmp
+	
 
-# Ignore a specific file
-secret.txt
-.env
+Ignore all log files
 
-# Ignore a directory
-node_modules/
 
-# Ignore all files in a directory
+
+
+temp.txt
+
+	
+
+Ignore temp.txt
+
+
+
+
 logs/
 
-# Ignore all .class files
-*.class
+	
 
-# Do not ignore this specific file
-!important.loggit add .gitignore
-git commit -m "Add gitignore file"
+Ignore the logs directory
+
+
+
+
+/config.txt
+
+	
+
+Ignore config.txt only at the repository root
+
+
+
+
+!important.log
+
+	
+
+Do not ignore important.log
+
+
+
+
+*.env
+
+	
+
+Ignore files ending in .env
