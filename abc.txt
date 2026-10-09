@@ -1,1 +1,22 @@
-this is again pushing in dev branch
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+
+# Ignore a specific file
+secret.txt
+.env
+
+# Ignore a directory
+node_modules/
+
+# Ignore all files in a directory
+logs/
+
+# Ignore all .class files
+*.class
+
+# Do not ignore this specific file
+!important.log
