@@ -19,4 +19,5 @@ logs/
 *.class
 
 # Do not ignore this specific file
-!important.log
+!important.loggit add .gitignore
+git commit -m "Add gitignore file"
