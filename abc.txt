@@ -1,1 +1,61 @@
-this is again pushing in dev branch
+this is again pushing in dev branch5. Common .gitignore patterns
+
+Pattern
+
+	
+
+Meaning
+
+
+
+
+*.log
+
+	
+
+Ignore all log files
+
+
+
+
+temp.txt
+
+	
+
+Ignore temp.txt
+
+
+
+
+logs/
+
+	
+
+Ignore the logs directory
+
+
+
+
+/config.txt
+
+	
+
+Ignore config.txt only at the repository root
+
+
+
+
+!important.log
+
+	
+
+Do not ignore important.log
+
+
+
+
+*.env
+
+	
+
+Ignore files ending in .env
