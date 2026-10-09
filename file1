@@ -1,0 +1,1 @@
+Interview tip: .gitignore primarily affects untracked files. To ignore a file already tracked by Git, remove it from the index using git rm --cached.
